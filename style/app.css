@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url(../fonts/TTNorms-Medium.otf);
+}
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #080710;
+    font-family: "TTNorms Medium";
+    color: #fff;
+}
+.contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    position: relative;
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.07);
+    border: solid 2px rgba(1, 1, 1, 0.053);
+    backdrop-filter: blur(5px);
+}
+h1 {
+    text-align: center;
+}
+.input-main {
+    margin: 0 20px;
+}
+.input-main input {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 255.5px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding-left: 1rem;
+    color: #fff;
+}
+label {
+    display: block;
+    padding: 5px 0;
+}
+.submit {
+    margin: 30px 20px;
+}
+.submit button {
+    height: 40px;
+    border-radius: 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.test {
+    width: 130px;
+    height: 130px;
+    border-radius: 900px;
+    background-color: #fb8c00;
+    position: absolute;
+    top: -54px;
+    left: -53px;
+    z-index: -1;
+}
+.test1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 900px;
+    background-color: #d32f2f;
+    position: absolute;
+    bottom: -65px;
+    z-index: -1;
+    right: -63px;
+}
+::placeholder {
+    color: #fff;
+}
+.chekbox {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 20px;
+}
+#mycheckbox {
+    accent-color: #080789;
+}
